@@ -252,3 +252,30 @@ img {
 .contact-details:hover {
   transform: translateY(8px);
 }
+/* Footer  */
+footer{
+     display: flex;
+    background: #303841;
+    justify-content: space-evenly;
+    padding: 2rem;
+    border-top: 4px solid #be3144;
+}
+footer > p {
+  margin: 2rem;
+}
+.fa{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    background-size: 20px 20px;
+}
+.icon-footer-learn{
+    background-image: url('../image/estudiar.png');
+}
+.icon-footer-web{
+    background-image: url('../image/tecnologico.png');
+}
+.icon-footer-tel{
+    background-image: url('../image/telefono-inteligente-1.png');
+}
