@@ -123,7 +123,7 @@ img {
 .projects-section-header{
     max-width: 640px;
     margin: 0 auto 6rem auto;
-    border-bottom: 0.2rem solid #45567d;
+    border-bottom: 0.2rem solid white;
 }
 
 @media (max-width: 28.75em) {
@@ -171,4 +171,84 @@ img {
 .project-title {
   font-size: 2rem;
   padding: 2rem 0.5rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 2px;
+}
+.btn-show-all {
+  font-size: 2rem;
+  background:  #303841; /*Gris*/
+  transition: background 0.3s ease-out;
+}
+.btn-show-all:hover {
+  background: #be3144 ; /*Red*/
+}
+.btn-show-all > i {
+  margin-left: 10px;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+/* Inicio Contacto */
+.contact-section{
+    background: #303841;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+}
+.contact-section-header > h2 {
+  font-size: 6rem;
+}
+@media (max-width: 28.75em) {
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+}
+
+.contact-section-header > p {
+  font-style: italic;
+}
+.contact-link{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+.fab{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+    background-size: 20px 20px;
+}
+.fa-facebook-square{
+   background-image: url('../image/facebook-2.png');
+}
+.fa-github-square{
+   background-image: url('../image/github.png');
+}
+.fa-twitter-square{
+    background-image: url('../image/gorjeo-1.png');
+}
+.fa-instagram-square{
+    background-image: url('../image/instagram.png');
+}
+.contact-details{
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
 }
